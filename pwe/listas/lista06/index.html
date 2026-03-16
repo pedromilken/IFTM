@@ -6,27 +6,53 @@
     <title>Document</title>
 </head>
 <body>
-<table border="1">
-  <caption>Dados dos Membros</caption>
-  <colgroup>
-    <col span="2" style="background-color:red">
-    <col style="background-color:yellow">
-  </colgroup>
-  <tr>
-    <th>Nome</th>
-    <th>Idade</th>
-    <th>Profissão</th>
-  </tr>
-  <tr>
-    <td>Ted</td>
-    <td>22</td>
-    <td>Estudante</td>
-  </tr>
-  <tr>
-    <td>Junior</td>
-    <td>26</td>
-    <td>Escritor</td>
-  </tr>
+
+    <table border="1" style="width:100%; border-collapse: collapse; text-align: center;">
+  <!-- Título da Tabela -->
+  <caption style="font-weight: bold; margin-bottom: 10px;">
+    Tabela 1 - Pessoas residentes em domicílios particulares, por sexo e situação do domicílio - Brasil - 1980
+  </caption>
+
+  <thead>
+    <tr>
+      <th>Situação do domicílio</th>
+      <th>Total</th>
+      <th>Mulheres</th>
+      <th>Homens</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr style="font-weight: bold; border-top: 2px solid black;">
+      <td>Total</td>
+      <td>117 960 301</td>
+      <td>59 595 332</td>
+      <td>58 364 969</td>
+    </tr>
+    <tr>
+      <td>Urbana</td>
+      <td>79 972 931</td>
+      <td>41 115 439</td>
+      <td>38 857 492</td>
+    </tr>
+    <tr>
+      <td>Rural</td>
+      <td>37 987 370</td>
+      <td>18 479 893</td>
+      <td>19 507 477</td>
+    </tr>
+  </tbody>
+
+  <!-- Legenda / Fonte na base -->
+  <tfoot>
+    <tr>
+      <td colspan="4" style="text-align: left; font-size: 0.9em; padding-top: 10px; border: none;">
+        <b>Fonte:</b> Fundação Instituto Brasileiro de Geografia e Estatística - IBGE.
+      </td>
+    </tr>
+  </tfoot>
 </table>
+
+    
 </body>
 </html>
