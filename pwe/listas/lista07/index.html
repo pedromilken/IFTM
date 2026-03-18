@@ -20,30 +20,35 @@
   <input type="radio" id="feminino" name="sexo" value="Feminino">
   <label for="feminino">Feminino</label><br>
   <br>
-  <p>Estado Civil:</p>
-  <br>
-<label for="estadocivil">Estado Civil:</label>
-<select id="cars" name="cars">
+  <label for="estadocivil">Estado Civil:</label>
+  <select id="cars" name="cars">
   <option value="casado">Casado</option>
   <option value="solteiro">Solteiro>
   <option value="viuvo">Viúvo</option>
   <option value="divorciado">Divorciado</option>
   <option value="outro">Outro</option>
-</select>
+  </select>
   <br>
   <p>Email:</p>
-  <textarea name="message" rows="10" cols="30"> </textarea>
+  <input type="email" name="user_email" required>
   <br>
   <p>Endereço:</p>
   <textarea name="message" rows="10" cols="30"> </textarea>
   <br>
   <p>Número:</p>
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="4">
   <br>
   <p>Complemento:</p>
   <textarea name="message" rows="10" cols="30"> </textarea>
   <br>
   <p>Data de Nascimento:</p>
+  <input type="date" name="birthdate" required>
   <br>
+  <input type="submit" value="Submit">
+  <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+  <input type="submit" formnovalidate="formnovalidate"
+  value="Submit without validation">
   </form>
     
 </body>
