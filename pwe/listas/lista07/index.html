@@ -44,7 +44,7 @@
   <textarea name="message" rows="10" cols="30"> </textarea>
   <br>
   <label for="numero">Número:</label>
-  <input type="number" id="número" name="numero" step="1">
+  <input type="number" id="numero" name="numero" step="1" min="1" required>
   <br>
   <p>Complemento:</p>
   <textarea name="message" rows="10" cols="30"> </textarea>
@@ -52,10 +52,8 @@
   <p>Data de Nascimento:</p>
   <input type="date" name="birthdate" required>
   <br>
-  <input type="submit" value="Submit">
-  <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
-  <input type="submit" formnovalidate="formnovalidate"
-  value="Submit without validation">
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Limpar Tudo">
   </form>
     
 </body>
